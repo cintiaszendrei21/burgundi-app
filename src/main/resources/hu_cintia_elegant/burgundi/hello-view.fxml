@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" spacing="30.0" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="hu_cintia_elegant.burgundi.HelloController" styleClass="root">
+    <padding>
+        <Insets bottom="40.0" left="40.0" right="40.0" top="40.0"/>
+    </padding>
+
+    <Label text="BURGUNDI" style="-fx-font-size: 32px;-fx-letter-spacing: 5px; -fx-font-weight: bold;"/>
+
+    <HBox alignment="CENTER" spacing="20.0">
+        <VBox alignment="CENTER" spacing="15.0" style="-fx-border-color: #800020; -fx-border-width: 1; -fx-padding: 20; -fx-border-radius: 10;">
+            <Button text="GARDRÓB" style="-fx-font-weight: bold;"/>
+
+        </VBox>
+
+        <VBox alignment="CENTER" spacing="15.0" style="-fx-border-color: #800020; -fx-border-width: 1; -fx-padding: 20; -fx-border-radius: 10;">
+            <Button text="HARMÓNIA" style="-fx-font-weight: bold;"/>
+
+        </VBox>
+    </HBox>
+</VBox>

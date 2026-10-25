@@ -1,0 +1,32 @@
+.root {
+    -fx-background-image: url("/elegant_a.png");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.button {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-border-color: #f5f5dc;
+    -fx-border-width: 2px;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-text-fill: #4a0404;
+    -fx-font-weight: bold;
+}
+
+
+.button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #800000;
+    -fx-border-color: #d4af37;
+}
+
+
+.text-field, .date-picker, .choice-box {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-border-color: #f5f5dc;
+    -fx-border-width: 2px;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-text-fill: #4a0404;
+}
